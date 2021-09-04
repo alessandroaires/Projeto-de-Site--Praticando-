@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: grey;
+}
+
+.header{
+    background-color: rgb(131, 122, 122);
+    padding: 20px;
+}
+.main{
+    max-width: 980px;
+    margin: auto; 
+}
+
+.logo {
+    float: left;
+
+}
+
+.links{
+    text-align: right;
+}
+
+.links li{
+    display: inline-block;
+    padding-left: 30px;
+}
+.bg-wite{
+    clear: both;
+    padding: 20px;
+    border-bottom: 2px solid grey;
+}
+
+.contatos ul{
+    list-style: none;
+   
+}
+.contatos li{
+float: left;
+margin: 10px;
+padding-right: 20px;
+
+}
+.contatos li a{
+    text-decoration: none;
+  
+    padding-bottom: 32.5px;
+    border: hidden;
+}
+.contatos li a:hover{
+    color: cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+}
+.search{
+    text-align: right;   
+    
+}
+.search input{
+  padding: 10px;
+  background-image: url(img/icone-search.png);
+  background-repeat: no-repeat;
+  background-position: 90%;
+}
+
+.banner{
+    clear: both;
+}
+.banner img{
+    width: 100%;
+}
+
+.conteudo{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.conteudo h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.col{
+    width: 33%;
+   display: inline-block;
+   text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.content-02{
+   position: relative;
+   top: 40px;
+}
+.fotos img {
+    width: 100%;
+}
+
+.bg-grey-fotos{
+    background-color: rgb(216, 211, 211);
+}
+
+
+.marcas1{
+   text-align: center;
+   padding: 30px;
+}
+.marcas1 a{
+    margin-left: 40px;
+}
+
+.marcas1 a:hover{
+  position: relative;
+  bottom: 10px;
+}
+.coments{
+    background-color:rgb(216, 211, 211);
+     
+}
+.box {
+    width: 33%;
+ 
+   display: inline-block;
+   text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.coments1 div{
+    width: 22%;
+   display: inline-block;
+   margin: 10px;
+    
+}
+.box img{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.box1 h3, p{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.box1 ul {
+    list-style-image: url('./img/clock.png');
+    list-style-position: inside;
+}
+
+.box4 ul{
+    list-style-image: url('./img/local.png');
+    list-style-position: inside;
+}
+
+.tel{
+    list-style-image: url('./img/telefoneico.png');
+    list-style-position: inside;
+}
+
+
+footer {
+    background-color: black;
+    padding: 20px;
+
+}
+
+@media screen and (max-width:600px){
+
+    }
